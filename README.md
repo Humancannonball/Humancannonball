@@ -1,4 +1,4 @@
-## Hi there! Please view my two top project, Devops and Personal website. They are connected, since Devops runs the docker images of the website. 👋
+## Hi there! Please view my two top projects, Devops and Personal website. They are connected, since Devops runs the docker images of the website. 👋
 
 <!--
 **Humancannonball/Humancannonball** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
