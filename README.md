@@ -1,4 +1,3 @@
-<h1 align="center">Hi 👋, I'm Mark Mikula</h1>
 <h3 align="center">Passionate technologist with an crazyness for DevOps, Linux systems, Machine Learning and software development. Trying out every tech that comes at my sight.</h3>
 
 <h3 align="left">Connect with me:</h3>
