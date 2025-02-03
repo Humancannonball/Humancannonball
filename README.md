@@ -1,4 +1,5 @@
-<h3 align="center">Passionate technologist with an crazyness for DevOps, Linux systems, Machine Learning and software development. Trying out every tech that comes at my sight.</h3>
+<h2 align="center">Passionate technologist with an crazyness for DevOps, Linux systems, Machine Learning and software development. Trying out every tech that comes at my sight.</h2>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=humancannonball&" alt="humancannonball" /></p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -12,5 +13,4 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=humancannonball&show_icons=true&locale=en" alt="humancannonball" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=humancannonball&" alt="humancannonball" /></p>
 
