@@ -1,5 +1,6 @@
-<h2 align="center">Passionate technologist with an crazyness for DevOps, Linux systems, Machine Learning and software development. Trying out every tech that comes at my sight.</h2>
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Humancannonball&theme=great-gatsby" alt="GitHub Streak" /></a>
+<h1 align="center">Hi 👋, I'm Mark Mikula</h1>
+<h3 align="center">Passionate technologist with an crazyness for DevOps, Linux systems, Machine Learning and software development. Trying out every tech that comes at my sight.</h3>
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/mark2005" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mark2005" height="30" width="40" /></a>
@@ -12,4 +13,5 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=humancannonball&show_icons=true&locale=en" alt="humancannonball" /></p>
 
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=humancannonball&" alt="humancannonball" /></p>
 
