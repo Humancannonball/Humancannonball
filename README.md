@@ -1,5 +1,5 @@
 <h2 align="center">Passionate technologist with an crazyness for DevOps, Linux systems, Machine Learning and software development. Trying out every tech that comes at my sight.</h2>
-[![GitHub Streak](https://streak-stats.demolab.com?user=Humancannonball&theme=git-dark)](https://git.io/streak-stats)
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Humancannonball&theme=great-gatsby" alt="GitHub Streak" /></a>
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/mark2005" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mark2005" height="30" width="40" /></a>
