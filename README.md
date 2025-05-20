@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Mark, and here are my projects which will convince you to hire me!</h1>
+<h1 align="center">Hi 👋, I'm Mark, and here are my projects</h1>
 <h3 align="center">DevOps, Linux 🐧, Machine Learning 🤖, and software development 💻 enthusiast. Trying out every tech that comes at my sight, always spending nights fixing some obscure software.</h3>
 <h3 align="center">Be sure to check out my website : (https://markmikula.software) :</h3>
 <h3 align="left">Connect with me</h3>
