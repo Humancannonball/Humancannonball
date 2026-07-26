@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" role="img" aria-labelledby="title description">
+  <title id="title">Mark Mikula — Cloud Security, Platform Engineering, and AI</title>
+  <desc id="description">Animated cyber-style profile header with a flowing network diagram.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050b16"/>
+      <stop offset=".52" stop-color="#0a1830"/>
+      <stop offset="1" stop-color="#17102f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="orb">
+      <stop stop-color="#22d3ee" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#67e8f9" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="frame">
+      <rect width="900" height="260" rx="24"/>
+    </clipPath>
+    <style>
+      .flow { animation: flow 5s linear infinite; }
+      .flow-slow { animation: flow 8s linear infinite reverse; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: center; }
+      .pulse-delay { animation: pulse 2.4s 1.2s ease-in-out infinite; transform-origin: center; }
+      @keyframes flow { to { stroke-dashoffset: -80; } }
+      @keyframes pulse {
+        0%, 100% { opacity: .42; transform: scale(.84); }
+        50% { opacity: 1; transform: scale(1.12); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .flow, .flow-slow, .pulse, .pulse-delay { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="260" fill="url(#background)"/>
+    <rect width="900" height="260" fill="url(#grid)"/>
+    <circle cx="730" cy="125" r="210" fill="url(#orb)"/>
+    <path d="M0 226C170 176 275 268 456 211S728 145 900 198" fill="none" stroke="url(#accent)" stroke-opacity=".13" stroke-width="2"/>
+
+    <g opacity=".28" fill="none" stroke="#67e8f9">
+      <path class="flow-slow" d="M560 58L670 91L748 47L838 91L780 150L862 198" stroke-dasharray="5 12"/>
+      <path class="flow" d="M586 193L658 139L734 182L780 150L670 91L658 139" stroke-dasharray="3 10"/>
+      <path class="flow-slow" d="M560 58L586 193L734 182L862 198" stroke-dasharray="2 13"/>
+    </g>
+
+    <g filter="url(#glow)">
+      <g fill="#071321" stroke="#22d3ee" stroke-width="2">
+        <circle cx="560" cy="58" r="6"/>
+        <circle cx="670" cy="91" r="8"/>
+        <circle cx="658" cy="139" r="6"/>
+        <circle cx="586" cy="193" r="7"/>
+      </g>
+      <g fill="#130f27" stroke="#a78bfa" stroke-width="2">
+        <circle cx="748" cy="47" r="7"/>
+        <circle cx="838" cy="91" r="6"/>
+        <circle cx="780" cy="150" r="10"/>
+        <circle cx="734" cy="182" r="6"/>
+        <circle cx="862" cy="198" r="7"/>
+      </g>
+      <circle class="pulse" cx="670" cy="91" r="18" fill="none" stroke="#22d3ee" stroke-opacity=".4"/>
+      <circle class="pulse-delay" cx="780" cy="150" r="22" fill="none" stroke="#a78bfa" stroke-opacity=".4"/>
+    </g>
+
+    <g font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace">
+      <text x="42" y="42" fill="#64748b" font-size="11" letter-spacing="2">SECURE SYSTEMS // USEFUL SOFTWARE</text>
+      <text x="42" y="91" fill="#f8fafc" font-family="Inter, Segoe UI, sans-serif" font-size="43" font-weight="700" letter-spacing="1">MARK MIKULA</text>
+      <rect x="42" y="108" width="424" height="3" rx="1.5" fill="url(#accent)"/>
+      <text x="42" y="138" fill="#cbd5e1" font-size="14" letter-spacing="1.5">CLOUD SECURITY  /  PLATFORM  /  AI</text>
+
+      <g transform="translate(42 158)">
+        <rect width="249" height="36" rx="18" fill="#071827" stroke="#164e63"/>
+        <circle class="pulse" cx="20" cy="18" r="5" fill="#22d3ee"/>
+        <text x="35" y="23" fill="#67e8f9" font-size="12" letter-spacing="1">BUILDING AMBERDETECT</text>
+      </g>
+
+      <text x="42" y="231" fill="#64748b" font-size="12">$ secure</text>
+      <text x="111" y="231" fill="#22d3ee" font-size="12">→</text>
+      <text x="133" y="231" fill="#94a3b8" font-size="12">automate</text>
+      <text x="201" y="231" fill="#a78bfa" font-size="12">→</text>
+      <text x="223" y="231" fill="#e2e8f0" font-size="12">ship</text>
+    </g>
+  </g>
+</svg>

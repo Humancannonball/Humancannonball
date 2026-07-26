@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 190" role="img" aria-labelledby="title description">
+  <title id="title">GIAC Security Essentials certification — 92 percent</title>
+  <desc id="description">A visual credential card for Mark Mikula's GSEC certification and score.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#07111f"/>
+      <stop offset=".58" stop-color="#0b1830"/>
+      <stop offset="1" stop-color="#191033"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .score { animation: score 1.8s ease-out both; }
+      .scan { animation: scan 3s ease-in-out infinite; }
+      .pulse { animation: pulse 2s ease-in-out infinite; }
+      @keyframes score { from { stroke-dashoffset: 301; } to { stroke-dashoffset: 0; } }
+      @keyframes scan {
+        0%, 100% { transform: translateY(-20px); opacity: 0; }
+        20%, 80% { opacity: .9; }
+        50% { transform: translateY(40px); }
+      }
+      @keyframes pulse { 0%, 100% { opacity: .4; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        .score, .scan, .pulse { animation: none; }
+      }
+    </style>
+    <clipPath id="shield-clip">
+      <path d="M105 36L157 54V91C157 123 136 146 105 159C74 146 53 123 53 91V54Z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="900" height="190" rx="22" fill="url(#background)"/>
+  <g font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace">
+    <path d="M105 30L164 51V92C164 129 140 154 105 168C70 154 46 129 46 92V51Z" fill="#081b2c" stroke="url(#accent)" stroke-width="2.5" filter="url(#glow)"/>
+    <path d="M105 48L146 63V91C146 115 131 133 105 145C79 133 64 115 64 91V63Z" fill="none" stroke="#22d3ee" stroke-opacity=".38"/>
+    <g clip-path="url(#shield-clip)">
+      <rect class="scan" x="48" y="72" width="114" height="3" fill="#67e8f9" filter="url(#glow)"/>
+    </g>
+    <text x="105" y="101" text-anchor="middle" fill="#f8fafc" font-size="22" font-weight="700">GSEC</text>
+    <circle class="pulse" cx="105" cy="118" r="3" fill="#22d3ee"/>
+
+    <text x="202" y="46" fill="#64748b" font-size="11" letter-spacing="2">SECURITY CREDENTIAL // 01</text>
+    <text x="202" y="84" fill="#f8fafc" font-family="Inter, Segoe UI, sans-serif" font-size="27" font-weight="700">GIAC SECURITY ESSENTIALS</text>
+    <text x="202" y="114" fill="#94a3b8" font-size="14" letter-spacing="1.4">GSEC  ·  SANS INSTITUTE</text>
+    <rect x="202" y="136" width="440" height="2" rx="1" fill="url(#accent)" opacity=".7"/>
+    <text x="202" y="159" fill="#64748b" font-size="10">CYBERSECURITY FOUNDATIONS  /  DEFENSE  /  OPERATIONS</text>
+
+    <circle cx="797" cy="95" r="53" fill="#080f20" stroke="#1e293b" stroke-width="9"/>
+    <circle class="score" cx="797" cy="95" r="53" fill="none" stroke="url(#accent)" stroke-width="9" stroke-linecap="round" stroke-dasharray="301 333" transform="rotate(-90 797 95)" filter="url(#glow)"/>
+    <text x="797" y="101" text-anchor="middle" fill="#f8fafc" font-family="Inter, Segoe UI, sans-serif" font-size="28" font-weight="700">92%</text>
+    <text x="797" y="122" text-anchor="middle" fill="#64748b" font-size="9" letter-spacing="1.4">SCORE</text>
+  </g>
+</svg>
