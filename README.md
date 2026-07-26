@@ -1,10 +1,32 @@
-# Mark Mikula
+<p align="center">
+  <img src="./assets/hero.svg" width="100%" alt="Mark Mikula — Cloud Security, Platform Engineering, and AI" />
+</p>
 
-Cloud security engineer at Nasdaq. I work with AWS, Azure, GCP, Terraform,
-Kubernetes, GitOps, Python, and AI-assisted security automation.
+<p align="center">
+  <a href="https://amberdetect.com"><img src="https://img.shields.io/badge/AMBERDETECT-LIVE-22d3ee?style=for-the-badge&labelColor=07111f" alt="Try AmberDetect" /></a>
+  <a href="https://github.com/Humancannonball/amberdetect-oss"><img src="https://img.shields.io/badge/SOURCE-GITHUB-a78bfa?style=for-the-badge&logo=github&logoColor=white&labelColor=07111f" alt="AmberDetect source code" /></a>
+</p>
 
-- Helped automate CSPM onboarding across 400+ cloud accounts.
-- Earned GIAC Security Essentials (GSEC) with a 92% score.
-- Built [AmberDetect](https://github.com/Humancannonball/amberdetect-oss), open-source AI analysis for public YouTube comments.
+I build secure cloud platforms and AI-assisted tools. My current project,
+**[AmberDetect](https://github.com/Humancannonball/amberdetect-oss)**, turns public
+YouTube comments into a useful review queue for creators.
 
-Try it at [amberdetect.com](https://amberdetect.com).
+## `> engineering_stack`
+
+<p align="center">
+  <img src="./assets/stack.svg" width="100%" alt="Cloud, infrastructure, platform, automation, and observability toolchain" />
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,terraform,kubernetes,docker,linux,python,bash,githubactions,prometheus,grafana&perline=12&theme=dark" alt="AWS, Azure, GCP, Terraform, Kubernetes, Docker, Linux, Python, Bash, GitHub Actions, Prometheus, and Grafana" />
+</p>
+
+## `> security_credential`
+
+<p align="center">
+  <img src="./assets/gsec.svg" width="100%" alt="GIAC Security Essentials certification, 92 percent score" />
+</p>
+
+<p align="center">
+  <sub>Tool icons provided by the open-source <a href="https://github.com/tandpfun/skill-icons">Skill Icons</a> project.</sub>
+</p>

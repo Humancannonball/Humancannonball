@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-labelledby="title description">
+  <title id="title">Mark Mikula's engineering tool stack</title>
+  <desc id="description">An animated pipeline from cloud security through infrastructure, platforms, automation, and observability.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#07111f"/>
+      <stop offset="1" stop-color="#0d1328"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#22d3ee"/>
+      <stop offset=".55" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0L8 4L0 8Z" fill="#60a5fa"/>
+    </marker>
+    <style>
+      .flow { animation: flow 4s linear infinite; }
+      .card { animation: breathe 5s ease-in-out infinite; }
+      .card:nth-of-type(even) { animation-delay: 1.2s; }
+      @keyframes flow { to { stroke-dashoffset: -48; } }
+      @keyframes breathe {
+        0%, 100% { opacity: .88; }
+        50% { opacity: 1; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .flow, .card { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="900" height="300" rx="22" fill="url(#background)"/>
+  <g font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace">
+    <text x="32" y="38" fill="#64748b" font-size="12">$ cat engineering-stack.yml</text>
+    <circle cx="842" cy="32" r="4" fill="#22d3ee" filter="url(#glow)"/>
+    <text x="852" y="36" fill="#67e8f9" font-size="10">ONLINE</text>
+
+    <path class="flow" d="M165 150H194M329 150H358M493 150H522M657 150H686" fill="none" stroke="url(#line)" stroke-width="2" stroke-dasharray="5 7" marker-end="url(#arrow)"/>
+
+    <g class="card">
+      <rect x="24" y="67" width="141" height="166" rx="14" fill="#0b1c2e" stroke="#155e75"/>
+      <circle cx="45" cy="90" r="5" fill="#22d3ee"/>
+      <text x="57" y="95" fill="#67e8f9" font-size="12" font-weight="700">CLOUD</text>
+      <path d="M40 108H149" stroke="#164e63"/>
+      <text x="40" y="137" fill="#f8fafc" font-size="14">AWS</text>
+      <text x="40" y="166" fill="#f8fafc" font-size="14">Azure</text>
+      <text x="40" y="195" fill="#f8fafc" font-size="14">GCP</text>
+      <text x="40" y="218" fill="#64748b" font-size="9">security + architecture</text>
+    </g>
+
+    <g class="card">
+      <rect x="188" y="67" width="141" height="166" rx="14" fill="#0b1a31" stroke="#1d4ed8"/>
+      <circle cx="209" cy="90" r="5" fill="#60a5fa"/>
+      <text x="221" y="95" fill="#93c5fd" font-size="12" font-weight="700">IaC</text>
+      <path d="M204 108H313" stroke="#1e3a8a"/>
+      <text x="204" y="144" fill="#f8fafc" font-size="14">Terraform</text>
+      <text x="204" y="177" fill="#f8fafc" font-size="14">GitOps</text>
+      <text x="204" y="218" fill="#64748b" font-size="9">reproducible systems</text>
+    </g>
+
+    <g class="card">
+      <rect x="352" y="67" width="141" height="166" rx="14" fill="#0c1830" stroke="#2563eb"/>
+      <circle cx="373" cy="90" r="5" fill="#38bdf8"/>
+      <text x="385" y="95" fill="#7dd3fc" font-size="12" font-weight="700">PLATFORM</text>
+      <path d="M368 108H477" stroke="#1e40af"/>
+      <text x="368" y="137" fill="#f8fafc" font-size="13">Kubernetes</text>
+      <text x="368" y="166" fill="#f8fafc" font-size="13">Docker</text>
+      <text x="368" y="195" fill="#f8fafc" font-size="13">Linux</text>
+      <text x="368" y="218" fill="#64748b" font-size="9">cloud-native runtime</text>
+    </g>
+
+    <g class="card">
+      <rect x="516" y="67" width="141" height="166" rx="14" fill="#10152f" stroke="#6d28d9"/>
+      <circle cx="537" cy="90" r="5" fill="#a78bfa"/>
+      <text x="549" y="95" fill="#c4b5fd" font-size="12" font-weight="700">AUTOMATE</text>
+      <path d="M532 108H641" stroke="#4c1d95"/>
+      <text x="532" y="134" fill="#f8fafc" font-size="12">Python + Bash</text>
+      <text x="532" y="161" fill="#f8fafc" font-size="12">GitHub Actions</text>
+      <text x="532" y="188" fill="#f8fafc" font-size="12">Flux + MCP</text>
+      <text x="532" y="218" fill="#64748b" font-size="9">delivery + AI workflows</text>
+    </g>
+
+    <g class="card">
+      <rect x="680" y="67" width="196" height="166" rx="14" fill="#15132f" stroke="#7c3aed"/>
+      <circle cx="701" cy="90" r="5" fill="#c084fc"/>
+      <text x="713" y="95" fill="#d8b4fe" font-size="12" font-weight="700">OBSERVE</text>
+      <path d="M696 108H860" stroke="#581c87"/>
+      <text x="696" y="144" fill="#f8fafc" font-size="14">Prometheus</text>
+      <text x="696" y="177" fill="#f8fafc" font-size="14">Grafana</text>
+      <text x="696" y="218" fill="#64748b" font-size="9">metrics + feedback loops</text>
+    </g>
+
+    <text x="450" y="269" text-anchor="middle" fill="#64748b" font-size="11" letter-spacing="1.2">SECURE BY DESIGN  →  REPRODUCIBLE  →  OBSERVABLE</text>
+  </g>
+</svg>
