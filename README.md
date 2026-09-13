@@ -1,42 +1,52 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Mark Mikula — Cloud Security, Platform Engineering, AI, and native systems" />
+  <img src="./assets/hero.svg" width="100%" alt="Mark Mikula — Cloud security and platform engineering. Secure systems. Useful software." />
 </p>
 
 <p align="center">
-  <a href="https://amberdetect.com"><img src="https://img.shields.io/badge/AMBERDETECT-LIVE-22d3ee?style=for-the-badge&labelColor=07111f" alt="Try AmberDetect" /></a>
-  <a href="https://github.com/Humancannonball/LumaKnob/releases"><img src="https://img.shields.io/badge/LUMAKNOB-WINDOWS_ALPHA-a7ed79?style=for-the-badge&logo=windows&logoColor=white&labelColor=07111f" alt="Download LumaKnob" /></a>
+  <a href="https://amberdetect.com">Try AmberDetect ↗</a> &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/in/mark2005/">LinkedIn</a> &nbsp; · &nbsp;
+  <a href="https://github.com/Humancannonball?tab=repositories">Explore my code</a>
 </p>
 
-I build secure cloud platforms, AI-assisted products, and native system tools.
-My work pairs infrastructure and security discipline with interfaces that solve
-specific everyday problems.
+I’m **Mark**, a cloud security and platform engineer based in Vilnius. I automate infrastructure, build security tooling, and turn ideas into working software—from AI applications to Windows desktop tools.
 
-## `> featured_builds`
+### Selected work
 
-| Project | What it does | Engineering focus |
-| --- | --- | --- |
-| **[AmberDetect](https://github.com/Humancannonball/amberdetect-oss)** · [live](https://amberdetect.com) | Turns public YouTube comments into a prioritized, explainable review queue for creators. | Next.js, TypeScript, external APIs, untrusted-input handling, privacy-first AI integration |
-| **[LumaKnob](https://github.com/Humancannonball/LumaKnob)** · [releases](https://github.com/Humancannonball/LumaKnob/releases) | Extends Windows display brightness below the hardware floor with adjustable precision and an original equipment-style UI. | C# 14, .NET 10, Avalonia, Win32/WMI/DDC-CI, multi-monitor recovery, CI/release engineering |
+#### AmberDetect · AI comment intelligence
 
-Both projects are open source under permissive licenses and ship with automated
-tests, security guidance, reproducible builds, and documented privacy boundaries.
+Find the conversations worth your time in a YouTube comment section. Paste a video link to surface questions, feedback, appreciation, spam, and toxicity in a prioritized review queue.
 
-## `> engineering_stack`
+<a href="https://amberdetect.com">
+  <img src="./assets/amberdetect-preview.png" width="100%" alt="Open AmberDetect: a YouTube link analysis interface with question, feedback, appreciation, spam, and toxicity categories." />
+</a>
 
-<p align="center">
-  <img src="./assets/stack.svg" width="100%" alt="Cloud, infrastructure, platform, automation, and observability toolchain" />
-</p>
+**Next.js · TypeScript · YouTube Data API · DeepSeek**
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,terraform,kubernetes,docker,linux,python,bash,githubactions,prometheus,grafana&perline=12&theme=dark" alt="AWS, Azure, GCP, Terraform, Kubernetes, Docker, Linux, Python, Bash, GitHub Actions, Prometheus, and Grafana" />
-</p>
+Built as my machine-learning bachelor’s thesis project. The public edition keeps a small footprint: server-side API credentials, validated inputs, and temporary results without a database. AI classifications support human review.
 
-## `> security_credential`
+**[Open the app ↗](https://amberdetect.com)** &nbsp; · &nbsp; [Read the source](https://github.com/Humancannonball/amberdetect-oss)
 
-<p align="center">
-  <img src="./assets/gsec.svg" width="100%" alt="GIAC Security Essentials certification, 92 percent score" />
-</p>
+#### LumaKnob · Precision display control
 
-<p align="center">
-  <sub>Tool icons provided by the open-source <a href="https://github.com/tandpfun/skill-icons">Skill Icons</a> project.</sub>
-</p>
+A Windows app for per-monitor brightness, including software dimming below the hardware minimum. An instrument-inspired interface brings hardware controls and fine adjustment into one place.
+
+**C# · .NET · Avalonia · Win32 · WMI · DDC/CI**
+
+Engineering focus: native display integration, multi-monitor recovery, and a standalone desktop release.
+
+**[Explore the project](https://github.com/Humancannonball/LumaKnob)** &nbsp; · &nbsp; [Windows alpha releases ↗](https://github.com/Humancannonball/LumaKnob/releases)
+
+### What I work with
+
+| Area | Tools & practice |
+| :--- | :--- |
+| Cloud security | AWS IAM, least privilege, Secrets Manager, Wiz / CSPM, architecture reviews |
+| Infrastructure | AWS, Azure, Terraform, Kubernetes, Helm, Docker, Linux, Flux / GitOps |
+| Automation | Python, Bash, SQL, GitHub Actions, GitLab CI/CD, credential lifecycle workflows |
+| Observability & AI | Prometheus, Grafana, LLM APIs, MCP integrations |
+
+My professional work includes cloud security onboarding automation, credential rotation, and architecture reviews across AWS, Azure, and GCP. **GIAC Security Essentials (GSEC)** certified.
+
+---
+
+<p align="center"><sub>Secure systems. Useful software. Code you can explore.</sub></p>
